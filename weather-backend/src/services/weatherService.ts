@@ -1,4 +1,5 @@
 import { WeatherData } from '../models/weather';
+import 'dotenv/config';
 
 // Parses API response and constructs Weather data
 const constructWeatherData = (apiResponse: any) => {
